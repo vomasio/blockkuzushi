@@ -126,7 +126,7 @@ phina.define('MainScene', {
           
           let dx = ball.x - this.paddle.x;
           ball.direction.x = dx;
-          ball.direction.y -80;
+          ball.direction.y = -80;
           ball.direction.normalize();
           
           //ballSpeed up
